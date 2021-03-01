@@ -13,6 +13,7 @@
     justify-content: space-between;
     align-items: center;
     height: 80px;
+    padding: 0 100px;
 }
 
 .conteiner{
@@ -56,9 +57,8 @@
 
 .block{
     background: #292d33;
-    width: 1300px;
+    width: 1230px;
     height: 487px;
-    padding: 0 17px;
     margin-top: 100px;
 }
 
@@ -103,7 +103,7 @@
     margin-top: 150px;
     padding: 0 17px;
     background: #333333;
-    width: 1300px;
+    width: 1200px;
     height: 142px;
 }
 .futer_inner{
