@@ -80,21 +80,21 @@
     box-shadow: 5px 5px 15px 3px  #f1c50e;
     width: 600px;
     height: 550px;
-    margin: 0 30px;
+    margin: 0 25px;
 }
 .img-2{
     border-radius: 50px;
     box-shadow: 5px 5px 15px 3px  #f1c50e;
     width: 250px;
     height: 300px;
-    margin: 37px 10px;
+    margin: 37px 0px;
 }
 .img-3{
     border-radius: 50px;
     box-shadow: 5px 5px 15px 3px  #f1c50e;
     width: 250px;
     height: 300px;
-    margin: 37px 10px;
+    margin: 37px 25px;
 }
 
 .img__block{
