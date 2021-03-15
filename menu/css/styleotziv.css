@@ -42,15 +42,24 @@
 .menu__list-link{
     display: inline-block;
     vertical-align: top;
-    margin: 0 20px;
+    margin: 0 10px;
 
     text-decoration: none;
+    font-size: 18px;
     color: rgb(131, 131, 131);
 
-    transition: color .2s linear;
+    padding: 5px 25px 5px;
+
+    border: 2px solid rgb(190, 188, 188);
+    border-radius: 50px;
+
+
+    font-family: 'Roboto', sans-serif;
+
+    transition: background .2s linear;
 }
 .menu__list-link:hover{
-    color: rgb(190, 188, 188);
+    background: rgb(190, 188, 188);
 }
 
 /* block */
@@ -58,10 +67,11 @@
 .tetle{
     margin-top: 100px;
     background: #292d33;
-    width: 1230px;
-    height: 468px;
+    border-radius: 50px 50px 0 0;
+    height: 780px;
 }
 .tetle_h2{
+    font-family: 'Roboto', sans-serif;
     color:  #f1c50e;
     text-align: center;
     padding: 2px;
@@ -69,17 +79,43 @@
 
 .info{
     display: flex;
-    justify-content: space-between;
-
+    justify-content: center;
+}
+.info_2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.info_list{
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 2px 2px 8px 1px  #f1c50e;
+    border-radius: 50px;
+    max-width: 385px;
+    border: 2px solid  #f1c50e;
     text-align: center;
+    margin: 15px;
 }
 
 .text{
-    width: 350px;
+    font-family: 'Roboto', sans-serif;
+    width: 300px;
     padding: 10px 30px 10px;
     color: rgb(190, 188, 188);
 }
 
 .hud{
     color: rgb(131, 131, 131);
+}
+
+/* footer */
+
+.futer{
+    height: 80px;
+    background: #333333;
+    border-radius: 0px 0 50px 50px;
+}
+.futer_inner{
+    padding: 30px;
+    text-align: center;
+    color: #fefefe;
 }
